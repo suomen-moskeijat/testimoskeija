@@ -4,7 +4,7 @@ luonnos: true        # uusi sivu on luonnos (palkki ylhäällä, ei Googlessa); 
 title: "Testimoskeija"
 slug: testimoskeija
 kaupunki: "Helsinki"
-osoite: "Helsinki"
+osoite: "Testikatu 1, 00100 Helsinki"   # esimerkkiosoite (testimoskeija)
 sijainti: { lat: 60.16662, lon: 24.943541 }
 
 puhelin: ""
@@ -12,7 +12,7 @@ whatsapp: ""
 sahkoposti: ""
 nettisivu: ""
 kielet: [suomi]
-juma: ""
+juma: "13.30"
 
 # Rukousajat: rukousajat.fi (Helsinki/Espoo/Vantaa) tai laskenta sijainnista
 rukousajat:
@@ -41,7 +41,7 @@ teema:
   korostus_vaalea: ""
 
 hero_tunniste: { fi: "Helsinki" }
-esittely: { fi: "Rukouksen, oppimisen ja yhteisön paikka." }
+esittely: { fi: "Tämä on testimoskeija: esimerkkisivu uusien ominaisuuksien kokeiluun. Tiedot ovat keksittyjä." }
 
 # Etusivun yläosa: tausta kuvio | kuva | vari, napit (enintään 2):
 # lapsi, toiminta, rukousajat, lahjoita, yhteys, oma tai oman sivun nimi
@@ -57,4 +57,14 @@ artikkelit:
 # Valikosta piilotettavat sivut, esim. [tapahtumat]. Lahjoita näkyy, kun lahjoitustiedot on lisätty.
 valikko_piilota: []
 galleria: []
+
+# Esimerkki: Ramadanin asetukset (testidata)
+ramadan:
+  tarawih: "20.30"
+  tarawih_huom: { fi: "Isha-rukouksen jälkeen, naisille oma tila" }
+  eid_aika: "08.30"
+  eid_aika_2: "10.00"
+  eid_paikka: { fi: "Testihalli, Testikatu 5" }
+  fitra: { fi: "10 € / henkilö" }
+  teksti: { fi: "Iftar moskeijalla joka perjantai – tervetuloa koko perheen kanssa!" }
 ---
