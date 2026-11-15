@@ -2,6 +2,7 @@
 title: Tarawih-rukoukset
 paiva: 2026-11-15
 aihe: Juhlat
+ramadan: true
 kuvaus: Ramadan 1448
 kuva: /tiedostot/testimoskeija/tarawih-rukoukset.jpg
 ---
