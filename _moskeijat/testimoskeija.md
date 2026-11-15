@@ -60,6 +60,7 @@ galleria: []
 
 # Esimerkki: Ramadanin asetukset (testidata)
 ramadan:
+  testi: true  # testimoskeija: ramadan-osio näkyy aina (esikatselu ?ramadan=ennen|5|eid)
   tarawih: "20.30"
   tarawih_huom: { fi: "Isha-rukouksen jälkeen, naisille oma tila" }
   eid_aika: "08.30"
