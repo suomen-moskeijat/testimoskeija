@@ -1,4 +1,5 @@
 ---
+ilmoittaudu: lomake
 title: "Avoimet ovet"
 paiva: 2026-11-28
 alkaa: "12.00"

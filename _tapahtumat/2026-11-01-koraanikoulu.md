@@ -1,5 +1,6 @@
 ---
 toistuu: viikoittain
+ilmoittaudu: lomake
 title: Koraanikoulu
 viikonpaivat:
   - ke
