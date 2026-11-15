@@ -1,5 +1,6 @@
-# Julkaisee moskeijan sivun. Ulkoasu, rukousaikojen ja Instagramin haku tulevat
-# yhteisestä pohjasta: github.com/suomen-moskeijat/pohja
+# TESTIMOSKEIJA: rakennetaan pohjan testi-haarasta, jotta uudet ominaisuudet voi testata ennen kuin ne
+# julkaistaan kaikille (paneeli → Testaus ja julkaisu). Pohjan testi-haaran muutos käynnistää tämän
+# (repository_dispatch pohja-testi). Muilla moskeijoilla on @main.
 # Ajetaan aina kun tietoja muutetaan, kerran tunnissa (rukousajat, Instagram) ja käsin.
 name: Julkaise sivusto
 
@@ -9,6 +10,8 @@ on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [pohja-testi]
 
 permissions:
   contents: read
@@ -21,4 +24,6 @@ concurrency:
 
 jobs:
   sivu:
-    uses: suomen-moskeijat/pohja/.github/workflows/rakenna.yml@main
+    uses: suomen-moskeijat/pohja/.github/workflows/rakenna.yml@testi
+    with:
+      pohja_versio: testi
