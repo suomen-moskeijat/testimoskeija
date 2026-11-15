@@ -1,0 +1,10 @@
+# Testimoskeija – sivun asetukset
+# Ulkoasu, rukousaikojen ja Instagramin haku: https://github.com/suomen-moskeijat/pohja
+title: "Testimoskeija"
+description: "Testimoskeija, Helsinki. Rukousajat, tapahtumat ja toiminta."
+moskeija: testimoskeija     # tiedosto _moskeijat/testimoskeija.md
+
+# Osoite: https://suomen-moskeijat.github.io/testimoskeija/
+# Omalla verkkotunnuksella (esim. moskeija.fi): url: "https://moskeija.fi" ja baseurl: ""
+url: "https://suomen-moskeijat.github.io"
+baseurl: "/testimoskeija"
