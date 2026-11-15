@@ -70,35 +70,4 @@ ramadan:
   teksti: { fi: "Iftar moskeijalla joka perjantai – tervetuloa koko perheen kanssa!" }
 palvelut_esittely:
   fi: Palvelut, joita moskeijalta voi pyytää. Ota yhteyttä, niin sovitaan aika.
-palvelut:
-  - kuvake: sydan
-    nimi:
-      fi: Janaza – hautajaiset
-    kuvaus:
-      fi: Autamme vainajan pesussa (ghusl), janaza-rukouksessa ja hautajaisjärjestelyissä. Ota yhteyttä heti, niin hoidamme asiat yhdessä – myös iltaisin ja viikonloppuisin.
-  - kuvake: tahti
-    nimi:
-      fi: Nikah – avioliiton solmiminen
-    kuvaus:
-      fi: Imaami solmii nikahin moskeijassa tai kotona. Varaa aika, niin kerromme, mitä tietoja ja todistajia tarvitaan.
-  - kuvake: moskeija
-    nimi:
-      fi: Shahada – islamiin kääntyminen
-    kuvaus:
-      fi: Haluatko kääntyä islamiin? Imaami keskustelee kanssasi ja todistaa shahadan. Saat todistuksen ja tukea alkuun.
-  - kuvake: lapsi
-    nimi:
-      fi: Aqiqa ja lapsen nimenanto
-    kuvaus:
-      fi: Neuvomme aqiqan järjestämisessä ja lapsen nimen valinnassa.
-  - kuvake: ryhma
-    nimi:
-      fi: Kouluvierailut ja tutustumiset
-    kuvaus:
-      fi: Koululuokat, päiväkodit ja muut ryhmät ovat tervetulleita tutustumaan moskeijaan. Sovi aika etukäteen.
-  - kuvake: kirja
-    nimi:
-      fi: Keskusteluapu ja neuvonta
-    kuvaus:
-      fi: Imaami tarjoaa luottamuksellista keskusteluapua perhe- ja elämäntilanteisiin sekä uskonnollisiin kysymyksiin.
 ---
