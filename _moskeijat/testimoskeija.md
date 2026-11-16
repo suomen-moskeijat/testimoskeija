@@ -2,6 +2,7 @@
 # Lisätty automaattisesti. Täydennä ja korjaa tietoja Pages CMS:ssä (https://app.pagescms.org).
 luonnos: true        # uusi sivu on luonnos (palkki ylhäällä, ei Googlessa); kun moskeija hyväksyy → false
 title: "Testimoskeija"
+kalenteri_tilaus: true # "Lisää puhelimen kalenteriin" -kortti (paneeli: Asetukset → Perustiedot)
 slug: testimoskeija
 kaupunki: "Helsinki"
 osoite: "Testikatu 1, 00100 Helsinki"   # esimerkkiosoite (testimoskeija)
